@@ -1,0 +1,448 @@
+html {
+    font-family: "Noto Sans JP", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-style: normal;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: normal;
+}
+
+body {
+    margin: 0px;
+    background-color: #e1dfdf;
+    color: #ffffff;
+}
+
+header {
+    /*background-color: rgb(94, 114, 202);*/
+    background-color: #364552;
+    padding: 1.5rem 1.5rem;
+    border: 1px solid black;
+    transition: outline 0.6s ease;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 130px;
+    display: inline;
+    float: left;
+    margin-right: 2rem;
+    transition: box-shadow 0.3s ease, width 0.3s ease, border 0.2s ease;
+    border: 2px solid black;
+
+}
+
+.logo:hover {
+    box-shadow: -1px 3px 9px rgb(9, 206, 206);
+    width: 133px;
+    border: 1px solid aqua;
+ 
+}
+
+
+
+header:hover {
+    outline: 4px inset rgb(146, 187, 227);;
+    
+}
+
+header h1 {
+    /*color: rgb(234, 215, 130);*/
+    color: #ffffff;
+    text-shadow: 2px 2px 3px black;
+    text-align: center;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: font-size 0.7s ease, color 0.7s ease;
+    padding: 1rem;
+    margin: 15px 0px;
+    font-size: 2.2rem;
+    display: inline;
+}
+
+.yoga {
+    transition: color 0.4s ease, text-shadow 0.4s ease; 
+    color: rgb(167, 252, 251);
+}
+
+
+header h1:hover {
+    font-size: 2.3em;
+    color: seashell;
+    .yoga {
+        color: aquamarine;
+        text-shadow: 1px 1px 9px aqua;
+    }
+}
+
+section {
+    width: 80%;
+    margin: 0px auto;
+}
+
+section article {
+    transition: box-shadow 0.3s ease;
+   /* background-color: rgba(174, 207, 24+78, 0.989); */
+   /*background-color: rgb(96, 111, 176);*/
+   /*background-color: rgb(103, 120, 194); */
+   /*background-color: rgb(181, 181, 249);*/
+   background-color: #ffffff78;
+    border-radius: 4px;
+    padding: 0.2rem;
+}
+
+section article h2, section article p, section article img {
+    margin: 1rem;
+}
+
+
+section article:hover {
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.6);
+}
+
+section article h2 {
+    transition: box-shadow 0.3s ease, padding 0.5s ease, color 0.7s ease, text-shadow 0.6s ease, background-color 0.3s ease;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 4px;
+    padding-left: 6px;
+    cursor: pointer;
+    /*border: 3px solid rgba(210, 173, 173, 0.7);*/
+    font-size: 1.8rem;
+    background-color: rgb(146, 187, 227);
+    text-shadow: 1px 1px 3px black;
+}
+
+
+
+section article h2:hover {
+    box-shadow: 1px 1px 9px rgb(182, 180, 180);
+    padding: 7px;
+    text-shadow: 1px 1px 4px black;
+    /* background-color: rgb(200, 167, 17); */
+    background-color: #3645529d;
+    .yoga {
+        color: aqua;
+        text-shadow: 1px 1px 4px black;
+    }
+    color: white;
+}
+
+
+#caja1 {
+    margin-top: 5rem;
+}
+
+#articulo1 {
+    max-width: 430px;
+}
+
+#articulo2 {
+    max-width: 210px;
+}
+
+#articulo3 {
+    max-width: 355px;
+}
+
+ul li {
+    margin: 1.1rem;
+    list-style-type: georgian;
+    padding: 0.3rem;
+    border-radius: 7px;
+    transition: box-shadow 0.4s ease, background-color 0.5s ease, color 0.5s ease;
+    color: rgb(0, 0, 0);
+}
+
+ul li:hover {
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
+    /*background-color: blanchedalmond;*/
+    background-color: rgb(146, 187, 227);
+    color: rgb(0, 0, 0);
+    .italic {
+        font-style: italic;
+        /*color: rgb(215, 169, 50);*/
+        color: rgb(190, 255, 255);
+        text-shadow: 1px 1px 3px black;
+        text-decoration: underline;
+        text-decoration-color: rgb(93, 85, 85);
+        padding: 0.05rem;
+    }
+
+    .underline {
+        font-style: italic;
+    }
+
+    #x {
+        color: red;
+    }
+    #treme {
+        color: rgb(255, 255, 255);
+    }
+
+    #studio {
+        color: rgb(198, 220, 251);
+    }
+
+    #cata {
+        color: rgb(198, 220, 251);
+    }
+
+    #vial {
+        color: rgb(142, 226, 198);
+    }
+
+    #vilo {
+        color: rgb(143, 199, 143);
+    }
+    #de {
+        color: rgb(212, 129, 248);
+    }
+}
+
+
+.italic {
+    margin: 1px;
+    font-weight: bold;
+    transition: font-style 0.02s ease-in-out, color 0.4s ease, text-shadow 0.3s ease;
+}
+
+
+.underline {
+    text-decoration-color:rgb(215, 196, 50);
+    font-weight: bold;
+    margin: 1px;
+    transition: font-style 0.08s ease-in-out;
+}
+
+
+
+
+
+
+
+/* section article p {
+    background-color: rgba(255, 255, 224);
+    color: #ffffff; 
+    transition: box-shadow 0.3s ease;
+    border-radius: 6px;
+    padding: 0.7rem;
+    border: 0.3px transparent black;
+    width: 0px auto; 
+}
+
+section article p  {
+    transition: padding 0.5s ease;
+}
+
+section article p {
+    transition: box-shadow 0.7s ease-in; 
+}
+
+section article p {
+    transition: background-color 0.7s ease, color 1s ease;
+   
+} */
+
+
+
+/* section article p:hover {
+    box-shadow: 1px 1px 9px rgb(190, 190, 190);
+    padding: 0.85rem;
+    background-color: #dcc5e3;
+    color: rgb(31, 31, 31); 
+} */
+
+section article img {
+    border: 1px solid rgb(0, 0, 0);
+    transition: width 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+#yogui {
+    margin-left: 1rem;
+
+}
+
+
+section article img:hover {
+    box-shadow: 1px 1px 3px rgb(3, 3, 3);
+    cursor: pointer;
+}
+
+#carito:hover {
+    width: 203px;
+}
+
+
+
+#yogui:hover {
+    width: 403px;
+}
+
+#postura:hover {
+    width: 403px;
+}
+
+#carito9:hover {
+    width: 476px;
+}
+
+footer {
+    background-color: #364552;
+    height: 9rem;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(255, 207, 119);
+}
+
+div p a {
+    text-decoration: none;
+    color: black;
+    align-content: first baseline;
+    font-size: 1.2rem;
+    padding: 0.37rem;
+    border-radius: 25px;
+    margin: 0.2rem;
+    margin-top: 4.5rem;
+    background-color: rgb(229, 143, 90);
+    position: relative;   
+    transition: background-color 0.3s ease, padding 0.3s ease, font-size 0.3s ease, color 0.3s ease;
+}
+
+
+div a:link {
+    color: #000000;
+    text-decoration: none;
+}
+
+div a:visited {
+    color: rgb(2, 2, 2);
+}
+
+div p a:hover {
+    color: #ffffff;
+}
+
+div p a:active {
+    background-color: rgb(229, 143, 90);
+    padding: 0.50rem;
+    font-size: 1.25rem;
+}
+
+footer div p a {
+    color: rgb(255, 254, 254);
+    text-decoration: none;
+    display: inline;
+    margin: 1rem;
+  
+}
+
+footer p a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline;
+    margin: 1.3rem;
+    float: right;
+
+}
+
+#ig {
+    margin-right: 1rem;
+}
+
+p.izquierda {
+    width: 150px;
+    float: left;
+    margin: 1rem;
+    margin-left: 1.5rem;
+}
+
+div p {
+    width: 80%;
+    margin: 0 auto; /* Esto centra horizontalmente */
+    margin-bottom: 2.8rem;
+    margin-top: 3.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: black;
+    font-weight: bold;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 0 auto; /* Esto centra horizontalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+   
+}
+
+th {
+    padding: 0.6rem;
+    width: 600px;
+    background-color: rgb(146, 187, 227);
+    color: black;
+    border: 1.5px solid black;
+}
+
+td {
+    padding: 0.4rem;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+}
+tr:nth-child(odd) {
+    background-color: rgba(201, 201, 201, 0.635);
+}
+
+tr:hover {
+    background-color: rgba(206, 206, 172, 0.431);
+}
+
+td a {
+    text-decoration: none;
+}
+
+td a:link {
+    color: black
+}
+
+td a:visited {
+    color: black;
+}
+
+td a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+td a:active {
+    color: rgb(203, 132, 0);
+}
